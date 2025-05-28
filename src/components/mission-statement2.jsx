@@ -11,9 +11,9 @@ function Mission2() {
 
   return (
     <>
-      <article className='mission-cards'>
-        <div className='mission'>
-          <h2>Personal Injury <br/> Representation You <br/> Deserve</h2>
+      <article className='mission2-card'>
+        <h2>Committed to Our Clients</h2>
+        <div className='mission2'>
           <p>Trust Cisneros Injury Law to fight for you rights</p>
         </div>
       </article>
