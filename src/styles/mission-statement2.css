@@ -1,0 +1,11 @@
+
+.mission2-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+
+.mission2 {
+  border: 1px solid black;
+}
