@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "whichway-9040f"
+  },
+  "targets": {
+    "whichway-9040f": {
+      "hosting": {
+        "default": [
+          "cisnerosinjurylaw"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
