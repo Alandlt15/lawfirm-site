@@ -1,11 +1,10 @@
 
 .mission2-card {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-self: center;
-  width: 99.9%;
+  width: 100%;
   height: 500px;
 }
 

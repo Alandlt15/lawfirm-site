@@ -13,7 +13,7 @@ function Footer() {
     <>
       <footer className='footer'>
         <p>Copyright &copy; 2025 Cisneros Injury Law - All Rights Reserved.</p>
-        <span/>
+        <hr className='h-line'/>
         <p>Creovant Sites</p>
       </footer>
     </>

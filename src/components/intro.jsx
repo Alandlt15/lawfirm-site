@@ -14,8 +14,8 @@ function Intro() {
       <article className='intro-card'>
           <h2>Meet Joel Cisneros</h2>
           <div className='intro'>
-            <p>Trust Cisneros Injury Law to fight for you rights</p>
-            <p>Image of Joel Here</p>
+            <p className='bio'>Trust Cisneros Injury Law to fight for you rights</p>
+            <p className='joel-img'>Image of Joel Here</p>
           </div>
       </article>
     </>

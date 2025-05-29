@@ -12,7 +12,7 @@ function Contact() {
     name: '',
     email: '',
     phone: '',
-    text: ''
+    inquiry: ''
   });
 
   const handleChange = (e) => {
@@ -31,48 +31,51 @@ function Contact() {
   return (
     <>
       <article className='contact-card'>
-        <h2>Get in Contact</h2>
+        <h2>Schedule Your Case Evaluation</h2>
         <div className='contact'>
           <form className='contact-form' onSubmit={handleSubmit}>
+            <h3>Get In Contact!</h3>
             <div>
-              <label>Name:</label><br />
               <input
+              className='input'
               type="text"
               name="name"
+              placeholder='Name'
               value={formData.name}
               onChange={handleChange}
               />
             </div>
             <div>
-              <label>Email:</label><br />
               <input
+                className='input'
                 type="email"
                 name="email"
+                placeholder='Email'
                 value={formData.email}
                 onChange={handleChange}
               />
             </div>
             <div>
-              <label>Phone:</label><br />
               <input
+                className='input'
                 type="tel"
                 name="phone"
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                placeholder="123-456-7890"
+                placeholder="Phone (123-456-7890)"
                 value={formData.phone}
                 onChange={handleChange}
               />
             </div>
             <div>
-              <label>Inquiry:</label><br />
-              <input
-                type="text"
+              <textarea
+                className='input-text'
+                placeholder="Message"
                 name="inquiry"
-                value={formData.text}
+                value={formData.inquiry}
                 onChange={handleChange}
               />
             </div>
-            <button type="submit">Submit</button>
+            <button className='submit-button' type="submit">Submit</button>
           </form>
           <div className='contact-info'>
             <h3>Cisneros Injury Law PLLC</h3>
