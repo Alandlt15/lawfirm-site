@@ -1,0 +1,33 @@
+{
+  "mission": {
+    "title1": "Tú Concéntrate en Sanar",
+    "title2": "Nosotros Nos Encargamos del Resto",
+    "p1a": "Cuenta con ",
+    "p1b": "Cisneros Injury Law",
+    "p1c": "para estar a tu lado y luchar por la compensación que ",
+    "p1d": "mereces",
+    "p2": "Sirviendo al Área de Austin"
+  },
+  "mission2": {
+    "title": "Tu Caso. Nuestra Prioridad.",
+    "p1-title": "Atención Personalizada en la que Puedes Confiar",
+    "p1": "En Cisneros Injury Law, creemos que cada cliente merece más que solo representación legal—merece atención personalizada. Nuestro abogado de lesiones personales trabaja directamente contigo, ofreciendo atención individualizada durante todo tu caso para asegurar que tu voz sea escuchada y tus necesidades atendidas.",
+    "p2-title": "Representación Integral en Lesiones Personales",
+    "p2": "Nuestro despacho maneja una amplia gama de casos de lesiones personales, incluyendo accidentes automovilísticos, accidentes de camiones, choques de motocicleta, caídas, mordeduras de perro y más. Con el conocimiento, la experiencia y los recursos para buscar justicia, estamos preparados para asumir incluso los casos más complejos.",
+    "p3-title": "Defensa Implacable por la Justicia que Mereces",
+    "p3": "En Cisneros Injury Law, no retrocedemos cuando tus derechos están en juego. Nuestro equipo de abogados experimentados está comprometido a luchar agresivamente por la compensación y la justicia que mereces—en cada paso del camino."
+  },
+  "intro": {
+    "title": "Conoce a Joel",
+    "bio": ""
+  },
+  "contact": {
+    "title": "Programa Tu Evaluación de Caso",
+    "form-title": "¡Ponte en Contacto!",
+    "name": "Nombre",
+    "email": "Correo Electronico",
+    "phone": "Numero (123-456-7890)",
+    "message": "Mensaje",
+    "submit": "Enviar"
+  }
+}

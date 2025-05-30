@@ -1,0 +1,33 @@
+{
+  "mission": {
+    "title1": "You Focus on Healing",
+    "title2": "We'll Handle the Rest",
+    "p1a": "Count on ",
+    "p1b": "Cisneros Injury Law ",
+    "p1c": "to stand by your side and fight for the compensation you ",
+    "p1d": "deserve",
+    "p2": "Serving the Austin Area"
+  },
+  "mission2": {
+    "title": "Your Case. Our Priority.",
+    "p1-title": "Personalized Attention You Can Count On",
+    "p1": "At Cisneros Injury Law, we believe every client deserves more than just legal representation—they deserve personalized care. Our personal injury attorney works directly with you, offering one-on-one attention throughout your case to ensure your voice is heard and your needs are met.",
+    "p2-title": "Comprehensive Personal Injury Representation",
+    "p2": "Our firm handles a wide range of personal injury cases, including car accidents, truck accidents, motorcycle crashes, slip and fall incidents, dog bites, and more. With the knowledge, experience, and resources to pursue justice, we’re prepared to take on even the most complex cases.",
+    "p3-title": "Relentless Advocacy for the Justice You Deserve",
+    "p3": "At Cisneros Injury Law, we don’t back down when your rights are on the line. Our team of experienced attorneys is committed to fighting aggressively for the compensation and justice you deserve—every step of the way."
+  },
+  "intro": {
+    "title": "Meet Joel",
+    "bio": ""
+  },
+  "contact": {
+    "title": "Schedule Your Case Evaluation",
+    "form-title": "Get In Contact!",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone (123-456-7890)",
+    "message": "Message",
+    "submit": "Submit"
+  }
+}
