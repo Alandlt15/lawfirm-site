@@ -1,8 +1,10 @@
 //react imports
 import React, { useState } from 'react';
+import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaFax} from 'react-icons/fa';
+import { IoShieldCheckmark } from "react-icons/io5";
 
 //component imports
-
+import emailjs from 'emailjs-com';
 
 //style import
 import '../styles/contact.css'
@@ -24,14 +26,31 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    // You can also send data to a backend here
+
+    const serviceID = import.meta.env.VITE_SERVICE_ID;
+    const templateID = import.meta.env.VITE_TEMPLATE_ID;
+    const userID = import.meta.env.VITE_PUBLIC_KEY;
+
+    emailjs.send(serviceID, templateID, formData, userID)
+      .then((response) => {
+        alert("Message sent successfully!");
+      }, (error) => {
+        console.log('FAILED...', error);
+      });
+
+    // Optional: reset form
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      inquiry: ''
+    });
   };
 
   return (
     <>
       <article className='contact-card'>
-        <h2>Schedule Your Case Evaluation</h2>
+        <h2 className='contact-title'>Schedule Your Case Evaluation</h2>
         <div className='contact'>
           <form className='contact-form' onSubmit={handleSubmit}>
             <h3>Get In Contact!</h3>
@@ -79,12 +98,17 @@ function Contact() {
           </form>
           <div className='contact-info'>
             <h3>Cisneros Injury Law PLLC</h3>
-            <p>3575 Far West Blvd.</p>
-            <p>PO Box 30166</p>
-            <p>Austin, Texas 78755</p>
-            <p>Tel: (512) 817-4477</p>
-            <p>Fax: (512) 641-0739</p>
-            <p>Email: joel@cisnerosinjurylaw.com</p>
+            <p><FaMapMarkerAlt/> 3575 Far West Blvd.
+            PO Box 30166
+            Austin, Texas 78755
+            <p><FaPhone/> (512) 817-4477</p>
+            <p><FaFax/> (512) 641-0739</p>
+            <p><FaEnvelope/> joel@cisnerosinjurylaw.com</p>
+            <p><IoShieldCheckmark/> <a 
+            className='link'
+            href='https://www.texasbar.com/AM/Template.cfm?Section=Find_A_Lawyer&template=/Customsource/MemberDirectory/MemberDirectoryDetail.cfm&ContactID=310000'>
+            State Bar of Texas</a></p>
+            </p>
           </div>
         </div>
       </article>

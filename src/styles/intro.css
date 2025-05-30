@@ -1,11 +1,16 @@
 
 .intro-card {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: 600px;
+}
+.intro-title {
+  color: var(--primary);
+  text-align: center;
+  font-size: 34px;
 }
 
 .intro {
@@ -21,6 +26,7 @@
 .bio {
   height: 300px;
   width: 400px;
+  font-size: 14px;
 }
 .joel-img {
   height: 300px;

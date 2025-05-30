@@ -19,7 +19,14 @@
   width: 500px;
   height: 350px;
 }
-
+.mission-title {
+  text-align: center;
+  font-size: 34px;
+}
+.mission-slogan {
+  text-align: center;
+  font-size: 20px;
+}
 .mission-img {
   max-width: 550px;
   height: 350px;

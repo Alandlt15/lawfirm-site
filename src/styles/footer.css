@@ -6,9 +6,10 @@
   justify-content: center;
   width: 100%;
   height: 150px;
+  font-size: 10px;
 }
 
-.h-line{
-  border: 1px solid black;
+.h-line {
+  border: .3px solid black;
   width: 30px;
 }

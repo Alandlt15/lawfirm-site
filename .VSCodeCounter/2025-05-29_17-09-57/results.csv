@@ -1,0 +1,26 @@
+"filename", "language", "JavaScript JSX", "PostCSS", "JSON", "XML", "JavaScript", "HTML", "Markdown", "comment", "blank", "total"
+"/Users/alandlt/Desktop/lawfirm-site/README.md", "Markdown", 0, 0, 0, 0, 0, 0, 7, 0, 6, 13
+"/Users/alandlt/Desktop/lawfirm-site/eslint.config.js", "JavaScript", 0, 0, 0, 0, 32, 0, 0, 0, 2, 34
+"/Users/alandlt/Desktop/lawfirm-site/firebase.json", "JSON", 0, 0, 17, 0, 0, 0, 0, 0, 0, 17
+"/Users/alandlt/Desktop/lawfirm-site/index.html", "HTML", 0, 0, 0, 0, 0, 16, 0, 0, 1, 17
+"/Users/alandlt/Desktop/lawfirm-site/package-lock.json", "JSON", 0, 0, 2792, 0, 0, 0, 0, 0, 1, 2793
+"/Users/alandlt/Desktop/lawfirm-site/package.json", "JSON", 0, 0, 27, 0, 0, 0, 0, 0, 1, 28
+"/Users/alandlt/Desktop/lawfirm-site/public/scale.svg", "XML", 0, 0, 0, 51, 0, 0, 0, 1, 0, 52
+"/Users/alandlt/Desktop/lawfirm-site/src/App.jsx", "JavaScript JSX", 21, 0, 0, 0, 0, 0, 0, 3, 6, 30
+"/Users/alandlt/Desktop/lawfirm-site/src/components/contact.jsx", "JavaScript JSX", 83, 0, 0, 0, 0, 0, 0, 4, 8, 95
+"/Users/alandlt/Desktop/lawfirm-site/src/components/footer.jsx", "JavaScript JSX", 13, 0, 0, 0, 0, 0, 0, 3, 7, 23
+"/Users/alandlt/Desktop/lawfirm-site/src/components/header.jsx", "JavaScript JSX", 10, 0, 0, 0, 0, 0, 0, 4, 5, 19
+"/Users/alandlt/Desktop/lawfirm-site/src/components/intro.jsx", "JavaScript JSX", 15, 0, 0, 0, 0, 0, 0, 3, 7, 25
+"/Users/alandlt/Desktop/lawfirm-site/src/components/mission-statement.jsx", "JavaScript JSX", 18, 0, 0, 0, 0, 0, 0, 3, 6, 27
+"/Users/alandlt/Desktop/lawfirm-site/src/components/mission-statement2.jsx", "JavaScript JSX", 33, 0, 0, 0, 0, 0, 0, 3, 7, 43
+"/Users/alandlt/Desktop/lawfirm-site/src/main.jsx", "JavaScript JSX", 9, 0, 0, 0, 0, 0, 0, 0, 2, 11
+"/Users/alandlt/Desktop/lawfirm-site/src/styles/App.css", "PostCSS", 0, 7, 0, 0, 0, 0, 0, 0, 1, 8
+"/Users/alandlt/Desktop/lawfirm-site/src/styles/contact.css", "PostCSS", 0, 82, 0, 0, 0, 0, 0, 0, 4, 86
+"/Users/alandlt/Desktop/lawfirm-site/src/styles/footer.css", "PostCSS", 0, 13, 0, 0, 0, 0, 0, 0, 2, 15
+"/Users/alandlt/Desktop/lawfirm-site/src/styles/header.css", "PostCSS", 0, 6, 0, 0, 0, 0, 0, 0, 1, 7
+"/Users/alandlt/Desktop/lawfirm-site/src/styles/index.css", "PostCSS", 0, 23, 0, 0, 0, 0, 0, 1, 3, 27
+"/Users/alandlt/Desktop/lawfirm-site/src/styles/intro.css", "PostCSS", 0, 31, 0, 0, 0, 0, 0, 0, 2, 33
+"/Users/alandlt/Desktop/lawfirm-site/src/styles/mission-statement.css", "PostCSS", 0, 31, 0, 0, 0, 0, 0, 0, 2, 33
+"/Users/alandlt/Desktop/lawfirm-site/src/styles/mission-statement2.css", "PostCSS", 0, 20, 0, 0, 0, 0, 0, 0, 2, 22
+"/Users/alandlt/Desktop/lawfirm-site/vite.config.js", "JavaScript", 0, 0, 0, 0, 5, 0, 0, 1, 2, 8
+"Total", "-", 202, 213, 2836, 51, 37, 16, 7, 26, 78, 3466

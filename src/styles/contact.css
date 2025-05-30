@@ -9,7 +9,11 @@
   width: 99.9%;
   height: 650px;
 }
-
+.contact-title {
+  color: var(--primary);
+  text-align: center;
+  font-size: 34px;
+}
 .contact {
   display: flex;
   flex-wrap: wrap;
@@ -31,17 +35,19 @@
   border: none;
   margin-bottom: 16px;
   box-shadow: 0 0 5px rgb(241, 241, 241);
+  font-family: "Merriweather", serif;
 }
 .input:hover {
   border: none;
   box-shadow: 0 0 5px rgb(219, 219, 219);
 }
 .input:focus {
+  font-family: "Merriweather", serif;
   outline: none;
   box-shadow: 0 0 5px rgb(219, 219, 219);
 }
 .input-text {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Merriweather", serif;
   width: 375px;
   height: 90px;
   border: none;
@@ -52,7 +58,7 @@
   box-shadow: 0 0 5px rgb(219, 219, 219);
 }
 .input-text:focus {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Merriweather", serif;
   outline: none;
   box-shadow: 0 0 5px rgb(219, 219, 219);
 }
@@ -63,11 +69,28 @@
   color: black;
   background: none;
   box-shadow: 0 0 5px rgb(241, 241, 241);
+  background-color: var(--primary);
+  color: white;
+  transition: ease 1s;
+  font-family: "Merriweather", serif;
 }
 .submit-button:hover {
-  box-shadow: 0 0 5px rgb(219, 219, 219);
+  cursor: pointer;
+  transition: ease 1s;
+  background-color: #146c3a;
+  box-shadow: 0 0 5px rgb(205, 204, 204);
 }
-
+.link {
+  /* color: #007bff; */
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: bold;
+}
+.link:hover {
+  /* color: #0056b3; */
+  color: #146c3a;
+  text-decoration: underline;
+}
 .contact-info {
   width: 400px;
   height: 400px;
