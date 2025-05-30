@@ -1,14 +1,22 @@
 
 .mission2-card {
-  border: 1px solid black;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-self: center;
-  width: 99.9%;
-  height: 500px;
+  padding-top: 50px;
+  width: 100%;
+  height: 700px;
 }
 
 .mission2 {
-  border: 1px solid black;
+  height: 425px;
+  width: 850px;
+  font-size: 14px;
+}
+.mission2-title {
+  color: var(--primary);
+  text-align: center;
+  font-size: 34px;
 }

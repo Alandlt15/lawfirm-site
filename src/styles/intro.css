@@ -1,20 +1,34 @@
 
 .intro-card {
-  border: 1px solid black;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  max-width: 100%;
-  height: 700px;
+  width: 100%;
+  height: 600px;
+}
+.intro-title {
+  color: var(--primary);
+  text-align: center;
+  font-size: 34px;
 }
 
 .intro {
-  border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
-  gap: 100px;
+  width: 100%;
+  gap: 10px;
   height: 500px;
+}
+.bio {
+  height: 300px;
+  width: 400px;
+  font-size: 14px;
+}
+.joel-img {
+  height: 300px;
+  width: 400px;
 }
