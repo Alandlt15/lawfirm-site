@@ -34,17 +34,19 @@
   height: 30px;
   border: none;
   margin-bottom: 16px;
-  box-shadow: 0 0 5px rgb(241, 241, 241);
+  box-shadow: 0 0 5px rgb(233, 233, 233);
   font-family: "Merriweather", serif;
+  transition: ease 1s;
 }
 .input:hover {
   border: none;
-  box-shadow: 0 0 5px rgb(219, 219, 219);
+  box-shadow: 0 0 5px rgb(210, 210, 210);
+  transition: ease 1s;
 }
 .input:focus {
   font-family: "Merriweather", serif;
   outline: none;
-  box-shadow: 0 0 5px rgb(219, 219, 219);
+  box-shadow: 0 0 5px rgb(210, 210, 210);
 }
 .input-text {
   font-family: "Merriweather", serif;
@@ -52,15 +54,17 @@
   height: 90px;
   border: none;
   margin-bottom: 16px;
-  box-shadow: 0 0 5px rgb(241, 241, 241);
+  box-shadow: 0 0 5px rgb(233, 233, 233);
+  transition: ease 1s;
 }
 .input-text:hover {
-  box-shadow: 0 0 5px rgb(219, 219, 219);
+  box-shadow: 0 0 5px rgb(210, 210, 210);
+  transition: ease 1s;
 }
 .input-text:focus {
   font-family: "Merriweather", serif;
   outline: none;
-  box-shadow: 0 0 5px rgb(219, 219, 219);
+  box-shadow: 0 0 5px rgb(210, 210, 210);
 }
 .submit-button {
   width: 376px;
