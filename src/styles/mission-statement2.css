@@ -20,3 +20,19 @@
   text-align: center;
   font-size: 34px;
 }
+
+@media (max-width: 768px) {
+  .mission2-card {
+    height: auto;
+    padding: 32px 16px;
+  }
+
+  .mission2 {
+    width: 90%;
+    height: auto;
+  }
+
+  .mission2-title {
+    font-size: 26px;
+  }
+}

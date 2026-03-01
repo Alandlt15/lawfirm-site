@@ -32,3 +32,27 @@
   height: 300px;
   width: 400px;
 }
+
+@media (max-width: 768px) {
+  .intro-card {
+    height: auto;
+    padding: 24px 16px;
+  }
+
+  .intro {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+
+  .bio {
+    width: 90%;
+    height: auto;
+  }
+
+  .joel-img {
+    width: 90%;
+    height: auto;
+    min-height: 200px;
+  }
+}
