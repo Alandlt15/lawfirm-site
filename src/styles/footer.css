@@ -13,3 +13,11 @@
   border: .3px solid black;
   width: 30px;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    height: auto;
+    padding: 20px 16px;
+    text-align: center;
+  }
+}

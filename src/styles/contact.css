@@ -99,3 +99,41 @@
   width: 400px;
   height: 400px;
 }
+
+@media (max-width: 768px) {
+  .contact-card {
+    height: auto;
+    padding: 32px 16px;
+  }
+
+  .contact {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+
+  .contact-form {
+    width: 90%;
+    height: auto;
+  }
+
+  .contact-info {
+    width: 90%;
+    height: auto;
+  }
+
+  .input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .input-text {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .submit-button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
