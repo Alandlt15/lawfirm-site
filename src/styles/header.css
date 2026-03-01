@@ -17,7 +17,8 @@
   cursor: pointer;
   border-radius: 2px;
   border: none;
-  background: transparent;
+  background-color:var(--primary);
+  color: white;
 }
 .lang-button:hover {
   transition: ease 1s;
