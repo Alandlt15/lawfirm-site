@@ -19,9 +19,9 @@ function Header() {
     <>
       <header className='header'>
         <p></p>
-        <p>logo</p>
+        <h1>Cisneros Injury Law</h1>
         <button className='lang-button' onClick={toggleLanguage}>
-        {i18n.language === 'en' ? 'Esp' : 'Eng'}
+        {i18n.language === 'en' ? 'Español' : 'English'}
         </button>
         {/* <img src={Logo} alt='logo' className='logo'/> */}
       </header>
